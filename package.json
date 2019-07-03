@@ -1,0 +1,32 @@
+{
+  "name": "stellar-wallet-keystore-mongodb-provider",
+  "version": "0.1.0",
+  "description": "MongoDB storage plugin for the stellar-wallet-keystore service.",
+  "author": "StellarExpert team",
+  "license": "MIT",
+  "homepage": "https://github.com/orbitlens/stellar-wallet-keystore-mongodb-provider",
+  "bugs": {
+    "url": "https://github.com/orbitlens/stellar-wallet-keystore-mongodb-provider/issues",
+    "email": "orbit.lens@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orbitlens/stellar-wallet-keystore-mongodb-provider.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "stellar",
+    "stellar-wallet-keystore",
+    "mongodb"
+  ],
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
+  "dependencies": {
+    "mongodb": "^3.2.7"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.1.28"
+  }
+}
